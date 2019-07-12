@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @ActiveProfiles("multiplesqlfiles")
-public class UserRepositoryMultipleSqlFilesIntTest {
+public class PersonRepositoryMultipleSqlFilesIntTest {
 
     @Autowired private UserRepository userRepository;
 
