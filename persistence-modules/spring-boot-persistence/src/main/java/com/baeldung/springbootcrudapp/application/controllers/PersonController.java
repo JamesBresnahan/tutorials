@@ -29,7 +29,7 @@ public class PersonController {
     public String index(Model model) {
         Iterable<Person> people = new ArrayList<>();
         people = personRepository.findAll();
-        model.addAttribute("users", personRepository.findAll());
+        model.addAttribute("users", people);
         return "index";
     }
 
